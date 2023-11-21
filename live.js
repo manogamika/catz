@@ -20,7 +20,7 @@ function updateChat() {
 
 
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "getMessages.php", true);
+    xhr.open("GET", "get.php", true);
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4 && xhr.status == 200) {
 
